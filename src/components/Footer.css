@@ -1,0 +1,77 @@
+.footer {
+    background-color: black;
+    color: white;
+    position: fixed; /* 画面最下部に固定 */
+    bottom: 0;
+    width: 100%;
+    left: 0; /* 左右に空白を作らない */
+    padding: 0; /* フッターのパディングを削除 */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 2560px;
+    margin: 0 auto;
+    padding: 5px; /* コンテンツ全体のパディングを調整 */
+    height: auto; /* 高さを自動に調整 */
+  }
+  
+  .footer-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%; /* 左右に空白を作らない */
+    padding: 0 10px; /* 左右のパディングを追加 */
+  }
+  
+  .footer-company {
+    text-align: left; /* 左揃えに変更 */
+  }
+  
+  .footer-company-name {
+    font-size: 1.5em; /* 文字サイズを少し小さく変更 */
+    margin-bottom: 0px; /* スペースを削除 */
+  }
+  
+  .footer-company-address {
+    font-size: 0.9em; /* 文字サイズを少し小さく変更 */
+    margin-bottom: 0px; /* スペースを削除 */
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    justify-content: flex-start; /* 左揃えに変更 */
+    gap: 20px; /* アイコン間のスペースをさらに減らす */
+    margin-top: 0px; /* スペースを削除 */
+  }
+  
+  .social-icon {
+    width: 20px; /* アイコンのサイズを維持 */
+    height: 20px;
+  }
+  
+  .footer-links {
+    text-align: left; /* 左揃えに変更 */
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content; /* コンテンツ幅に合わせる */
+  }
+  
+  .footer-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px; /* 下マージンをさらに減らす */
+    font-size: 1.0em; /* 文字サイズを維持 */
+    padding-top: 10px; /* 上パディングをさらに減らす */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 0px; /* 上パディングをさらに減らす */
+    font-size: 0.9em; /* コピーライトの文字サイズを少し小さく変更 */
+    padding-bottom: 2px; /* 下パディングを追加して全体の高さを抑える */
+  }
+  
